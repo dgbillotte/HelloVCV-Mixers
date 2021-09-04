@@ -1,0 +1,16 @@
+{
+  "slug": "HelloVCV-Mixers",
+  "name": "HelloVCV-Mixers",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "HelloVCV-Mixers",
+  "author": "Daniel Billotte",
+  "authorEmail": "daniel@litfuze.com",
+  "authorUrl": "https://zerolab.dgbillotte.com",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": []
+}
