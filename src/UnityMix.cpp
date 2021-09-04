@@ -40,12 +40,15 @@ struct UnityMixWidget : ModuleWidget {
 		addChild(createWidget<ScrewSilver>(Vec(RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 		addChild(createWidget<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 
-		addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.124, 95.73)), module, UnityMix::GAIN_PARAM));
-
+		// Input Jacks
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(10.124, 18.511)), module, UnityMix::IN1_INPUT));
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(10.124, 35.37)), module, UnityMix::IN2_INPUT));
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(10.124, 52.23)), module, UnityMix::IN3_INPUT));
 
+		// Gain Knob
+		addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.124, 95.73)), module, UnityMix::GAIN_PARAM));
+
+		// Output Jack
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(10.124, 119.415)), module, UnityMix::MIX_OUTPUT));
 	}
 };
