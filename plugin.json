@@ -12,5 +12,14 @@
   "sourceUrl": "",
   "donateUrl": "",
   "changelogUrl": "",
-  "modules": []
+  "modules": [
+    {
+      "slug": "UnityMix",
+      "name": "UnityMix",
+      "description": "3 channel unity mixer with output gain control",
+      "tags": [
+        "mixer"
+      ]
+    }
+  ]
 }
