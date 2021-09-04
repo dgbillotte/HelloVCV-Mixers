@@ -22,10 +22,10 @@ struct UnityMix : Module {
 
 	UnityMix() {
 		config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
-		configParam(GAIN_PARAM, 0.f, 1.f, 0.f, "");
+		configParam(GAIN_PARAM, 0.f, 2.f, 1.f, "Output gain");
 	}
 
-	void process(const ProcessArgs& args) override {
+	void process(const ProcessArgs& args) override {		
 	}
 };
 
